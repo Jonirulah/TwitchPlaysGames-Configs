@@ -1,0 +1,57 @@
+name: Configuration for Pokemon RED (GBA)
+author: Jonirulah
+
+commands:
+  a:
+    key-press-type: maintain
+    keys-order: sametime
+    press-time: 0.1
+    keys-to-press:
+      key: L
+    
+  b:
+    key-press-type: maintain
+    keys-order: sequential
+    press-time: 0.1    
+    keys-to-press:
+      key: K
+
+  up:
+    key-press-type: single-tap
+    keys-order: sequential
+    keys-to-press:
+      key: W
+
+  right:
+    key-press-type: single-tap
+    keys-order: sametime
+    keys-to-press:
+      key: D
+
+  down:
+    key-press-type: maintain
+    press-time: 0.1
+    keys-order: sequential
+    keys-to-press: 
+      key: S
+
+  left:
+    key-press-type: maintain
+    press-time: 0.1
+    keys-order: sequential
+    keys-to-press:
+      key: A
+
+  select:
+    key-press-type: maintain
+    press-time: 0.1
+    keys-order: sametime
+    keys-to-press:
+      key: BACKSPACE
+
+  start:
+    key-press-type: maintain
+    press-time: 0.1
+    keys-order: sequential
+    keys-to-press: 
+      key: ENTER
